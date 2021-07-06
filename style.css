@@ -51,6 +51,9 @@
     position: relative;
     animation: upanimation .7s ease-in-out;
 }
+.dowAnimation{
+    animation: downAnimation .7s ease-in-out;
+}
 .customize-dark:hover{
     transform: scale(1.02, 1.02);
 }
@@ -126,5 +129,16 @@ td a:hover {
     to{
         opacity: 1;
         top: 0px;
+    }
+}
+
+@keyframes downAnimation {
+    from{
+        bottom: 0px;
+        opacity: 1;
+    }
+    to{
+        bottom: 250px;
+        opacity: 0;
     }
 }

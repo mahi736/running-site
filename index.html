@@ -45,12 +45,12 @@
     </nav>
     <!-- device time notice -->
     <div class="container">
-        <div class="warning customize-dark">
+        <div class="customize-dark" id="warning">
 
             <p class="text-danger font-size my-3">Please insure that <b> your device time is set
                     correctly </b> before using our website. otherwise it will missbehave</p>
             <div class="btn-container">
-                <button class="custom-button">I understand</button>
+                <button id="undButton" class="custom-button">I understand</button>
             </div>
         </div>
         <!-- clock -->
@@ -81,7 +81,7 @@
             <div class="card-body cd-dark">
                 <h5 id="teach" class="card-title"></h5>
                 <p id="passbl" class="card-title"></p>
-                <a id="button" class="custom-button anchor" target="_blank">Join class</a>
+                <a id="button" class="custom-button anchor" target="_blank">Join Exam</a>
             </div>
             <div class="card-footer text-muted cd-dark">
 
@@ -92,6 +92,7 @@
 
 
     <script src="service.js"></script>
+    <script src="understand.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

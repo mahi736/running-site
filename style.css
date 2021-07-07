@@ -81,7 +81,10 @@
     text-decoration: none;
     color: white !important;
 }
-
+.animh2{
+    position: relative;
+    animation: upanimation .7s ease-in-out;
+}
 /* routine css  */
 
 th{
@@ -104,6 +107,52 @@ td a:hover {
 }
 .rdate p{
     margin-bottom: 0px !important;
+}
+.minhe{
+    min-height: 50vh;
+}
+.user-box{
+    position: relative;
+}
+.user-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.timeInput{
+    display: flex;
+}
+.tiformat{
+    margin: 35px 20px;
+    padding: 10px;
+    background-color: rgb(22, 22, 49);
+    color: #03e9f4;
+    width: 65px;
+}
+.timeInput .user-box input{
+    width: 80%;
+}
+.user-box label{
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.user-box input:focus ~ label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
 }
 /* syallbus css */
 .syllabus p{
@@ -140,5 +189,11 @@ td a:hover {
     to{
         bottom: 250px;
         opacity: 0;
+    }
+}
+/* resposive */
+@media only screen and (max-width : 410px) {
+    .timeInput .user-box input {
+        width: 125%;
     }
 }

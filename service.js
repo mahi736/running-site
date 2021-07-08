@@ -10,7 +10,7 @@ var mar = 'https://us04web.zoom.us/j/6830754268?pwd=RFVJTWtVZjliOEdqblo5WUxuNEx4
 var sps = 'https://us04web.zoom.us/j/4451007357?pwd=QU82TzNPMnFOUFdCODZWWnl5NFIwdz09';
 var mli = 'https://us04web.zoom.us/j/3159338639?pwd=d1QvNjZTK0M0MkxtbktVK29yRjRuUT09';
 var sba = 'https://us04web.zoom.us/j/2627129367?pwd=YjhmOUxjSno5WEszdlBsTnI4VHJQQT09';
-var msh = 'https://us04web.zoom.us/j/6543827888?pwd=Ym5rbCtHeCtoekdBOEwwcXdoc3dLQT09';
+var msh = 'https://us04web.zoom.us/j/7429303098?pwd=dllGdHF6anhUTzdVWElnM2h2b0oxUT09';
 var sdi = 'https://us04web.zoom.us/j/2368232378?pwd=bEFvdVlHMWVNdjlINEZ2NklhNW81QT09';
 var anh = 'https://us04web.zoom.us/j/9733291074?pwd=REhEaitKcW9obE51amJmb2d2TXBuZz09';
 var ms = 'https://us04web.zoom.us/j/7297530540?pwd=QUFUMTNvb0tiS3VGOGNOck1mMVl5dz09';
@@ -32,27 +32,27 @@ let spin = document.getElementById("spin")
 var routine =
     [[mar, noclass, noclass, noclass],
     [noclass, noclass, noclass, noclass],
-    [sba, noclass, sps, noclass],
+    [sba, noclass, si, noclass],
     [mjh, noclass, msh, noclass],
-    [mli, noclass, si, noclass],
+    [mli, noclass, sps, noclass],
     [noclass, noclass, noclass, noclass],
     [mmu, noclass, mfn, noclass]];
 
 var tech =
     [['mar', 'noclass', 'noclass', 'noclass'],
     ['noclass', 'noclass', 'noclass', 'noclass'],
-    ['sba', 'noclass', 'sps', 'noclass'],
+    ['sba', 'noclass', 'si', 'noclass'],
     ['mjh', 'noclass', 'msh', 'noclass'],
-    ['mli', 'noclass', 'si', 'noclass'],
+    ['mli', 'noclass', 'sps', 'noclass'],
     ['noclass', 'noclass', 'noclass', 'noclass'],
     ['mmu', 'noclass', 'mfn', 'noclass']];
 
 var subject =
     [['BGS Exam (MAR Miss)', 'noclass', 'noclass', 'noclass'],
     ['noclass', 'noclass', 'noclass', 'noclass'],
-    ['GM Exam (SBA Sir)', 'noclass', 'REL Exam (SPS Sir)', 'noclass'],
+    ['GM Exam (SBA Sir)', 'noclass', 'REL Exam (SI - D Sir)', 'noclass'],
     ['PHY Exam (MJH Sir)', 'noclass', 'E-1 Exam (MSH Sir)', 'noclass'],
-    ['CHE Exam (MLI Sir)', 'noclass', 'E-2 (SI - D sir)', 'noclass'],
+    ['CHE Exam (MLI Sir)', 'noclass', 'E-2 (SPS Sir)', 'noclass'],
     ['noclass', 'noclass', 'noclass', 'noclass'],
     ['HM Exam (MMU Sir)', 'noclass', 'ICT Exam (MFN Sir)', 'noclass']];
 let d = new Date();

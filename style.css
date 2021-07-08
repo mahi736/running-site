@@ -129,11 +129,12 @@ td a:hover {
     display: flex;
 }
 .tiformat{
-    margin: 35px 20px;
     padding: 10px;
     background-color: rgb(22, 22, 49);
     color: #03e9f4;
     width: 65px;
+    height: 45px;
+    margin-right: 20px;
 }
 .timeInput .user-box input{
     width: 80%;

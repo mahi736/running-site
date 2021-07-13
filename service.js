@@ -34,7 +34,7 @@ var routine =
     [noclass, noclass, noclass, noclass],
     [sba, noclass, si, noclass],
     [mjh, noclass, msh, noclass],
-    [mli, noclass, sps, noclass],
+    [mli, noclass, noclass, noclass],
     [noclass, noclass, noclass, noclass],
     [mmu, noclass, mfn, noclass]];
 
@@ -43,7 +43,7 @@ var tech =
     ['noclass', 'noclass', 'noclass', 'noclass'],
     ['sba', 'noclass', 'si', 'noclass'],
     ['mjh', 'noclass', 'msh', 'noclass'],
-    ['mli', 'noclass', 'sps', 'noclass'],
+    ['mli', 'noclass', 'noclass', 'noclass'],
     ['noclass', 'noclass', 'noclass', 'noclass'],
     ['mmu', 'noclass', 'mfn', 'noclass']];
 
@@ -51,8 +51,8 @@ var subject =
     [['BGS Exam (MAR Miss)', 'noclass', 'noclass', 'noclass'],
     ['noclass', 'noclass', 'noclass', 'noclass'],
     ['GM Exam (SBA Sir)', 'noclass', 'REL Exam (SI - D Sir)', 'noclass'],
-    ['PHY Exam (MJH Sir)', 'noclass', 'E-1 Exam (MSH Sir)', 'noclass'],
-    ['CHE Exam (MLI Sir)', 'noclass', 'E-2 (SPS Sir)', 'noclass'],
+    ['B-1 Exam (MJH Sir)', 'noclass', 'BIO Exam (MSH Sir)', 'noclass'],
+    ['B-2 Exam (MLI Sir)', 'noclass', 'noclass', 'noclass'],
     ['noclass', 'noclass', 'noclass', 'noclass'],
     ['HM Exam (MMU Sir)', 'noclass', 'ICT Exam (MFN Sir)', 'noclass']];
 let d = new Date();

@@ -146,10 +146,11 @@
     </div>
     <div class="container my4 minhe">
         <h2 class="animh2">Custom Link Service</h2>
-        <div class="customize-dark">
+        <div class="customize-dark" id="customlink">
             <!-- <div class="btn-container">
                 <button class="custom-button">Set up now</button>
             </div> -->
+            <!-- step 2 -->
             <!-- <h2>1. Name</h2>
             <div class="user-box">
                 <input type="text" name="" required="">
@@ -165,9 +166,9 @@
                     </div>
                 </div>
                 <select class="tiformat">
-                    <option value="1" selected>AM</option>
-                    <option value="2">PM</option>
-                  </select>
+                    <option value="am" selected>AM</option>
+                    <option value="pm">PM</option>
+                </select>
                 <div class="user-box">
                     <input type="text" name="" required="">
                     <label>To:</label>
@@ -176,11 +177,122 @@
                     </div>
                 </div>
                 <select class="tiformat">
-                    <option value="1" selected>AM</option>
-                    <option value="2">PM</option>
-                  </select> -->
-                  <P>Feature coming soon. Please be patient.</P>
+                    <option value="am" selected>AM</option>
+                    <option value="pm">PM</option>
+                </select>
             </div>
+            <h2>3. Day</h2>
+            <div class="daysradio">
+                <div class="inpucss">
+                    <div class="checkboxes">
+                        <input type="checkbox" name="weekday" id="saturday" checked>
+                        <label for="saturday">Saturday</label>
+                    </div>
+                    <div class="checkboxes">
+                        <input type="checkbox" name="weekday" id="sunday" checked>
+                        <label for="sunday">Sunday</label>
+                    </div>
+                    <div class="checkboxes">
+                        <input type="checkbox" name="weekday" id="monday" checked>
+                        <label for="monday">Monday</label>
+                    </div>
+                    <div class="checkboxes">
+                        <input type="checkbox" name="weekday" id="tuesday" checked>
+                        <label for="tuesday">Tuesday</label>
+                    </div>
+                    <div class="checkboxes">
+                        <input type="checkbox" name="weekday" id="wednesday" checked>
+                        <label for="wednesday">Wednesday</label>
+                    </div>
+                    <div class="checkboxes">
+                        <input type="checkbox" name="weekday" id="thursday" checked>
+                        <label for="thursday">Thursday</label>
+                    </div>
+                    <div class="checkboxes">
+                        <input type="checkbox" name="weekday" id="friday">
+                        <label for="friday">Friday</label>
+                    </div>
+                </div>
+            </div>
+            <h2>4. Link</h2>
+            <div class="linkssetup">
+                <div class="daysradio">
+                    <div class="checkboxes">
+                        <div class="inpucss">
+                            <input type="radio" name="link" id="existing" checked>
+                            <label for="existing">
+                                Use existing links
+                                <select class="tiformat morecss">
+                                    <option value="none" selected disabled hidden>Choose</option>
+                                    <option value="1">MLI</option>
+                                    <option value="2">SPS</option>
+                                    <option value="2">SBA</option>
+                                    <option value="2">SDA</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="checkboxes">
+                        <input style="margin: 0px 10px;
+                        width: 20px;
+                        height: 20px;
+                        transition: .5s all ease-in-out;" type="radio" name="link" id="custom">
+                        <label for="custom">
+                            <div class="user-box">
+                                <input type="text" name="" required="">
+                                <label>Use custom link</label>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div> -->
+            <!-- step 3 -->
+            <!-- <table class="table my-3">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Time</th>
+                        <th>Link</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody class="routinedate">
+                    <tr>
+                        <td>
+                            <p>Important Meeting</p>
+                        </td>
+                        <td>
+                            <p>12:00 am - 2:00 pm</p>
+                        </td>
+                        <td>
+                            <p>custom</p>
+                        </td>
+                        <td>
+                            <button class="custom-button">Edit</button>
+                            <button class="custom-button custom-button-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Couching</p>
+                        </td>
+                        <td>
+                            <p>10:00 am - 12:00 am</p>
+                        </td>
+                        <td>
+                            <p>mli</p>
+                        </td>
+                        <td>
+                            <button class="custom-button">Edit</button>
+                            <button class="custom-button custom-button-danger">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="btn-container">
+                <button class="custom-button">+ Add</button>
+            </div> -->
         </div>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
@@ -189,7 +301,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
         </script>
-
+    <!-- <script src="custom-link.js"></script> -->
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>

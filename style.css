@@ -51,6 +51,10 @@
     position: relative;
     animation: upanimation .7s ease-in-out;
 }
+.animate{
+    position: relative;
+    animation: upanimation .7s ease-in-out;
+}
 .dowAnimation{
     animation: downAnimation .7s ease-in-out;
 }
@@ -66,8 +70,15 @@
     transition: .5s all ease-in-out;
     outline: none !important;
 }
+.custom-button-danger{
+    background-color: rgb(195, 1, 1) !important;
+    margin: 0px 5px;
+}
 .custom-button:hover{
     background-color: rgb(1, 1, 90);
+}
+.custom-button-danger:hover{
+    background-color: rgb(117, 2, 2) !important;
 }
 .btn-container{
     display: flex;
@@ -139,6 +150,11 @@ td a:hover {
 .timeInput .user-box input{
     width: 80%;
 }
+.morecss{
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+}
 .user-box label{
     position: absolute;
     top:0;
@@ -154,6 +170,23 @@ td a:hover {
     left: 0;
     color: #03e9f4;
     font-size: 12px;
+}
+.daysradio{
+    display: flex;
+    flex-direction: column;
+}
+.inpucss input{
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+    transition: .5s all ease-in-out;
+}
+.daysradio input:hover{
+    cursor: pointer;
+}
+.checkboxes{
+    padding: 5px 0px;
+    display: flex;
 }
 /* syallbus css */
 .syllabus p{
